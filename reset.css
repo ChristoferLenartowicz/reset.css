@@ -22,8 +22,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 }
 
+button {
+	margin: 0;
+	padding: 0;
+}
+
 input:internal-autofill-selected {
-	background-color: rgba(100,100,100)
+	background-color: transparent
 }
 
 /* HTML5 display-role reset for older browsers */
